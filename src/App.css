@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.div2 {
+  /* se inserisco .div1 .div2 l'ultumo div che ho inserito con className="div2" non prende le caratteristiche della classe .div2 perchè andrei a dire prendimi i div2 contenuti in div1, ovvero i precedenti*/
+  margin: 30px;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (orientation: portrait) {
+  .div1 {
+    display: flex;
+    flex-direction: column; /*nel caso non sia presente niente l'impostazione predefinita è row */
   }
 }

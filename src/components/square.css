@@ -1,0 +1,17 @@
+.square {
+  height: 100px;
+  width: 100px;
+  color: white;
+  background: black;
+  border: black;
+  border-radius: 8px
+}
+
+.square.active {
+    background-color: blue
+}
+
+.imgStyle{
+  height:80px;
+  width:80px;
+}
