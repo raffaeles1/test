@@ -1,0 +1,131 @@
+.Containers {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.ContainerKiss {
+  background-color: black;
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  border: 3px solid blue;
+}
+
+.KissplayerStyle {
+  font-size: 20px;
+  color: white;
+}
+
+.kissImgStyle {
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+}
+
+.counterKissStyle {
+  font-size: 20px;
+  color: white;
+}
+
+.ContainerLaugh {
+  background-color: blue;
+  width: 200px;
+  height: 170px;
+  text-align: center;
+  border: 3px solid black;
+}
+
+.LaughPlayerStyle {
+  font-size: 20px;
+  color: white;
+}
+
+.LaughImgStyle {
+  height: 70px;
+  width: 70px;
+  margin-top: 20px;
+}
+
+.counterLaughStyle {
+  font-size: 20px;
+  color: white;
+}
+
+.allbuttonStyleFather {
+  display: flex;
+  justify-content: center;
+}
+
+.allbuttonStyleSon {
+  display: grid;
+  padding: 7px;
+  border: 5px dashed white;
+  border-radius: 22px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.buttonGroupStyle {
+  display: flex;
+  border-bottom: 5px dashed white;
+}
+
+.buttonGroupStyle:last-child {
+  border-bottom: none;
+}
+
+.buttonGroupStyle > div {
+  padding: 5px;
+}
+
+.buttonGroupStyle > div:nth-child(2) {
+  border-left: 5px dashed white;
+  border-right: 5px dashed white;
+}
+
+.winnerStyle {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.drawStyle {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+}
+
+.resetButtonStyleSon {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
+.resetButtonStyleFather {
+  display: flex;
+  justify-content: center;
+}
+
+@media (orientation: landscape) {
+  body {
+    background-color: rgb(128, 128, 128);
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background-color: rgb(85, 85, 247);
+  }
+}
+
+@media (orientation: portrait) {
+  .Containers {
+    display: grid;
+    grid-template-rows: auto;
+  }
+}
